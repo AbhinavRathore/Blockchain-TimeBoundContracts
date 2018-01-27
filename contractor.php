@@ -1,9 +1,11 @@
 <?php
+session_start();
+echo $_SESSION['email'];
 include("dbconfig.php");
-$id=1;
  $q = "SELECT * FROM `user_show` WHERE 1";
  $r = mysqli_query($con,$q);
 $_SEESION['section'] ="software";
+
  //echo  mysqli_num_rows($r);
 ?>
 <!doctype html>
@@ -35,7 +37,7 @@ $_SEESION['section'] ="software";
 		$rr = mysqli_query($con,$qq);
 		//echo  mysqli_num_rows($rr);
 		$we = mysqli_fetch_array($rr);
-        $v="residential_propr.php?id=".$id."&pro_num=".$row[0];
+        $v="residential_propr.php?id=".$var."&pro_num=".$row[0];
 		echo "<blockquote><h4>Name:".$we[1]."</h4><h4>Size In Sq ft:".$row[1]."</h4><h4>Number of Storeys:".$row[2]."</h4><h4>Description:".$row[3]."</h4><a href=".$v.">Propose Offer</a></blockquote><br>" ;
 		
 	}

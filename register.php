@@ -16,6 +16,8 @@ if(isset($_POST["submit_consumer"]))
   $q= "INSERT INTO signup( `user_name`, `password`, `email_id`, `contact_number`, `user_id`, `domain`, `type`)  VALUES ('$name'  ,'$pass' , '$email','$contact','$user_id','$domain','$type0')";
   
   $r = mysqli_query($con,$q);
+  session_start();	
+		$_SESSION['email']=$email;
   header("location:web.php");
    
 }
@@ -28,12 +30,14 @@ else if(isset($_POST["submit_contractor"]))
   	$domain=$_POST["contractor_domain"];
 	$contact=$_POST["contractor_contact"];
 	$type0="1";
-  
+	
   	
   
   $q= "INSERT INTO signup( `user_name`, `password`, `email_id`, `contact_number`, `user_id`, `domain`, `type`)  VALUES ('$name'  ,'$pass' , '$email','$contact','$user_id','$domain','$type0')";
   
   $r = mysqli_query($con,$q);
+  session_start();	
+		$_SESSION['email']=$email;
   header("location:contractor.php");
    
 }

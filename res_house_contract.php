@@ -1,4 +1,7 @@
-
+<?php
+	session_start();
+	$_SESSION['domain']=1;
+?>
 <!doctype html>
 <html lang="en">
 <head>

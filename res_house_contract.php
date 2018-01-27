@@ -52,16 +52,18 @@
 		<br><br><br><br>
 		<hr>
 		<h2 id="heading2">What do you expect?</h2>
-		<form method="post" action="add.php">
+		<form method="post" action="add_res_con.php">
     
 			    <div class="form-group">
 				<label for="size" class="control-label" id="l">Enter Plot Size In Sq.ft::</label>
 				<input class="form-control" placeholder="Enter Size" type="text" id="size"  name="size" required/>
 				</div>
+				
 				<div class="form-group">
 				<label for="storeys" class="control-label" id="l">Email Number Of Storeys:</label>
 				<input type="text" placeholder="Enter Number Of Storeys" class="form-control" id="storeys" name="storeys" required/>
 				</div>
+				
 				<div>
 				<label for="des" class="control-label" id="l">Description:</label>
 				<input type="text" placeholder="" class="form-control" id="des" name="des" required/>

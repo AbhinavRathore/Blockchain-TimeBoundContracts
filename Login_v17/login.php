@@ -24,7 +24,9 @@ if(isset($_POST["user_submit"]))
  {  
      session_start();	
 		$_SESSION['email']=$email;
-		header("location:error.php");	
+		
+		if($row["type"==0])
+		header("location:../web.php");	
 	 
   }
 }

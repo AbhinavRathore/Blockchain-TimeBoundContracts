@@ -1,0 +1,29 @@
+.container{
+	width:95%;
+	overflow: hidden;
+	background:skyblue;
+	margin:20px auto;
+	padding:20px;
+}
+
+.container ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.container ul li{
+	list-style:none;
+	float:left;
+	width:20%;
+	height:300px;
+	background:red;
+	
+}
+
+#li1{
+	margin:2% 90% 90% 2%;
+}
+
+#li2{
+	margin:2% 2% 90% 90%;
+}

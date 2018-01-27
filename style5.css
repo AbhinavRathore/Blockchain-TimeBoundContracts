@@ -1,0 +1,18 @@
+#back{
+	background-color:#1d7070;
+		height:80px;
+		width:400px;
+		border:1px solid black;
+		margin-top:100px;
+}
+#main{
+	background-color:white;
+	border:1px solid black;
+	width:400px;
+	height:350px;
+	
+}
+input[type="submit"]{
+	background-color:#1d7070;
+
+}

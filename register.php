@@ -16,23 +16,25 @@ if(isset($_POST["submit_consumer"]))
   $q= "INSERT INTO signup( `user_name`, `password`, `email_id`, `contact_number`, `user_id`, `domain`, `type`)  VALUES ('$name'  ,'$pass' , '$email','$contact','$user_id','$domain','$type0')";
   
   $r = mysqli_query($con,$q);
+  header("location:web.php");
    
 }
 else if(isset($_POST["submit_contractor"]))
 {
-	$name = $_POST["customer_name"];
-  $email = $_POST["customer_email"];
-  $pass = $_POST["customer_password"];
-  $user_id = $_POST["customer_userid"];
-  	$domain=$_POST["customer_domain"];
-	$contact=$_POSt["customer_contact"];
-	$type0="0";
+	$name = $_POST["contractor_name"];
+  $email = $_POST["contractor_email"];
+  $pass = $_POST["contractor_password"];
+  $user_id = $_POST["contractor_userid"];
+  	$domain=$_POST["contractor_domain"];
+	$contact=$_POST["contractor_contact"];
+	$type0="1";
   
   	
   
   $q= "INSERT INTO signup( `user_name`, `password`, `email_id`, `contact_number`, `user_id`, `domain`, `type`)  VALUES ('$name'  ,'$pass' , '$email','$contact','$user_id','$domain','$type0')";
   
   $r = mysqli_query($con,$q);
+  header("location:contractor.php");
    
 }
 

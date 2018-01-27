@@ -68,7 +68,7 @@
 
 <div class="tab-pane fade in" id="login">
 <h2 class="text-center"> Fill the Form </h2>
-<form id="login">
+<form id="login" method="post" action="register.php">
 
 
 <div class="form-group">

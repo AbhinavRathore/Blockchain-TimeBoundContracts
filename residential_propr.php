@@ -33,8 +33,9 @@ $pro_num=$_GET["pro_num"];
 			</div>
 			<br>
 			<br>
-			<input type="submit" value="submit" background="#1d7070" name="submit"/>
-			<a href="#"><p>Go back</p></a>
+			<input type="submit" value="submit" background="#1d7070" name="submit" style="margin-left:130px"/>
+			<br><br>
+			<a href="#" ><p style="margin-left:130px">Go back</p></a>
 			</form>
 		</div>
 	</body>

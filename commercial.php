@@ -1,7 +1,3 @@
-<?php
-	session_start();
-	$_SESSION['domain']=1;
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -27,7 +23,7 @@
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="Login_v17/vendor/daterangepicker/daterangepicker.css">
 <!--===============================================================================================-->
-
+	
 	<link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet"> 
 <!--===============================================================================================-->
 	<style> 
@@ -41,7 +37,7 @@
 		#des{
 			height:50px;
 		}
-		#header{
+				#header{
 		background-color:#1d7070;
 		height:80px;
 		width:90%;
@@ -60,28 +56,26 @@
 	<div class="col-md-3" >
 	<h2 id="aa">Blockchain Network</h2></div>
 	 <div class="col-md-2" style="float:right"><a href="Login_v17/index2.php"><h2 id="white">LOGOUT</h2></a></div>
-	</div>
-	
-	<br>
+	</div><br>
 	<div class="container" id="cont">
-	    <br><br>
-		<h1 id="heading">Hey!Planning to build your own house?</h1><br>
-		<h2>Tell us what you are looking for and we will provide you the help!</h2>
+		<h1 id="heading">Construct the world around you</h2>
 		<br><br><br><br>
 		<hr>
 		<h2 id="heading2">What do you expect?</h2>
-		<form method="post" action="add_res_con.php">
+		<form method="post" action="commercial_php.php">
     
 			    <div class="form-group">
-				<label for="size" class="control-label" id="l">Enter Plot Size In Sq.ft::</label>
+				<label for="type" class="control-label" id="l">Enter type of building::</label>
+				<input class="form-control" placeholder="Enter type of building" type="text" id="type"  name="type" required/>
+				</div>
+				<div class="form-group">
+				<label for="size" class="control-label" id="l">Enter size of building::</label>
 				<input class="form-control" placeholder="Enter Size" type="text" id="size"  name="size" required/>
 				</div>
-				
 				<div class="form-group">
-				<label for="storeys" class="control-label" id="l">Email Number Of Storeys:</label>
+				<label for="storeys" class="control-label" id="l">Number Of Storeys:</label>
 				<input type="text" placeholder="Enter Number Of Storeys" class="form-control" id="storeys" name="storeys" required/>
 				</div>
-				
 				<div>
 				<label for="des" class="control-label" id="l">Description:</label>
 				<input type="text" placeholder="" class="form-control" id="des" name="des" required/>

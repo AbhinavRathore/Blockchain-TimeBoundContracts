@@ -2,6 +2,8 @@
 		background-color:#1d7070;
 		height:80px;
 		width:90%;
+		color:#fff;
+		
 }
  #slide{
 	 padding-top:60px;
@@ -15,11 +17,16 @@
  #pic{
 	  height:340px; 
 	  margin-top:150px;
-	   margin-bottom:150px;
+	   margin-bottom:15px;
 	   background-color:#fff;
 	
  }
- 
+ #pic2{
+	 margin-bottom:50px;
+ }
+ #white{
+	color:#fff; 
+ }
  #im{
 	  max-width:100%;
 max-height:100%; 

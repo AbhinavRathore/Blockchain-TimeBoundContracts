@@ -1,6 +1,6 @@
 <?php
 session_start();
-echo $_SESSION['email'];
+//echo $_SESSION['email'];
 include("dbconfig.php");
  $q = "SELECT * FROM `user_show` WHERE 1";
  $r = mysqli_query($con,$q);
@@ -18,13 +18,21 @@ $_SEESION['section'] ="software";
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="style_contractor.css">
-
+	<style>
+		#white{
+			color:#fff;
+		}
+		
+	</style>
 </head>
 
 <body style="background-color:white">
 	
 	<br>
 	<div class="container-fluid" id="header">
+		<div class="col-md-3" id="white"><h2>Blockchain Network</h2></div>
+		<div class="col-md-3" id="white" style="float:right"><a href="Login_v17/index2.php"><h2>LOGOUT</h2></a></div>
+		
 	</div>
     <br><br>
 	<!--<div class="container-fluid" id="con">-->
@@ -38,7 +46,7 @@ $_SEESION['section'] ="software";
 		//echo  mysqli_num_rows($rr);
 		$we = mysqli_fetch_array($rr);
         $v="residential_propr.php?id=".$var."&pro_num=".$row[0];
-		echo "<blockquote><h4>Name:".$we[1]."</h4><h4>Size In Sq ft:".$row[1]."</h4><h4>Number of Storeys:".$row[2]."</h4><h4>Description:".$row[3]."</h4><a href=".$v.">Propose Offer</a></blockquote><br>" ;
+		echo "<blockquote style='background-color:#cae7fa;'><h4>Name:".$we[1]."</h4><h4>Size In Sq ft:".$row[1]."</h4><h4>Number of Storeys:".$row[2]."</h4><h4>Description:".$row[3]."</h4><a href=".$v.">Propose Offer</a></blockquote><br>" ;
 		
 	}
 	?>

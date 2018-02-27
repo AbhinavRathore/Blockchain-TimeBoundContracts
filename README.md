@@ -18,7 +18,11 @@ Some Screenshots:
 
 
 
+
+
 ![2nd](https://user-images.githubusercontent.com/26011589/36748681-996d610a-1c1e-11e8-904b-a92a8538d4ee.jpg)
+
+
 
 
 
@@ -26,7 +30,11 @@ Some Screenshots:
 
 
 
+
+
 ![4th](https://user-images.githubusercontent.com/26011589/36748687-9dfa3cac-1c1e-11e8-849a-dc01a5100c84.jpg)
+
+
 
 
 
@@ -34,7 +42,11 @@ Some Screenshots:
 
 
 
+
+
 ![6th](https://user-images.githubusercontent.com/26011589/36748700-a5392c94-1c1e-11e8-92d9-6e2bb6d0929b.jpg)
+
+
 
 
 

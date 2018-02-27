@@ -12,3 +12,30 @@ There will be review and rating system for the contractors and those with high r
 domain. 
 Apart from these,  we will allow contractor's to advertise on consumer's profile and will charge nominal fee for that.
 
+Some Screenshots:
+
+![1st](https://user-images.githubusercontent.com/26011589/36748679-96e23212-1c1e-11e8-96f2-c8b4de508bd5.jpg)
+
+
+
+![2nd](https://user-images.githubusercontent.com/26011589/36748681-996d610a-1c1e-11e8-904b-a92a8538d4ee.jpg)
+
+
+
+![3rd](https://user-images.githubusercontent.com/26011589/36748683-9b6985f6-1c1e-11e8-8c31-1e4de2388614.jpg)
+
+
+
+![4th](https://user-images.githubusercontent.com/26011589/36748687-9dfa3cac-1c1e-11e8-849a-dc01a5100c84.jpg)
+
+
+
+![5th](https://user-images.githubusercontent.com/26011589/36748695-a11bf916-1c1e-11e8-922f-ec7d70da4583.jpg)
+
+
+
+![6th](https://user-images.githubusercontent.com/26011589/36748700-a5392c94-1c1e-11e8-92d9-6e2bb6d0929b.jpg)
+
+
+
+![7th](https://user-images.githubusercontent.com/26011589/36748705-a7d90da2-1c1e-11e8-9bc0-046bf3a083a8.jpg)
